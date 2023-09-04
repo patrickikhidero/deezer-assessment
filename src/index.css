@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #43a2f5;
+  margin: 0;
+  font-family:  "MabryProRegular", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+@layer base {
+  @font-face {
+    font-family: "MabryProLight";
+    font-weight: 300;
+    src: local("MabryProLight"),
+      url(./assets/fonts/MabryPro-Light.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "MabryProRegular";
+    font-weight: 400;
+    src: local("MabryProRegular"),
+      url(./assets/fonts/MabryPro-Regular.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "MabryProMedium";
+    font-weight: 500;
+    src: local("MabryProMedium"),
+      url(./assets/fonts/MabryPro-Medium.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "MabryProBold";
+    font-weight: 700;
+    src: local("MabryProBold"),
+      url(./assets/fonts/MabryPro-Bold.ttf) format("truetype");
+  }
+  @font-face {
+    font-family: "MabryProBlack";
+    font-weight: 900;
+    src: local("MabryProBlack"),
+      url(./assets/fonts/MabryPro-Black.ttf) format("truetype");
+  }
+}
+
+.shadow-box {
+  box-shadow: 2px 2px 50px 1px rgba(185, 182, 182, 0.45);
+}
+.shadow-box-2 {
+  box-shadow: 2px 10px 28px rgba(75, 0, 129, 0.12);
+}
+
+.spinning {
+  animation-name: spinning;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.text-stroke {
+  /* -webkit-text-stroke: 0.5px #EF5466; */
+  -webkit-text-stroke: 0.5px #000000;
+}

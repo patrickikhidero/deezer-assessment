@@ -85,5 +85,5 @@
       "pre-push": "npm run test:all"
     }
   },
-  "test:all": "set CI=true && react-scripts test && npm run lint"
+  "test:all": "set CI=false && react-scripts test && npm run lint"
 }

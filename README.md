@@ -9,7 +9,6 @@
 ## Screenshots
 ![Screen Shot 2023-09-07 at 14 56 20](https://github.com/patrickikhidero/deezer-assessment/assets/80291797/7767e8a0-2780-428d-b60e-aa60b9dd2012)
 ![Screen Shot 2023-09-07 at 15 09 33](https://github.com/patrickikhidero/deezer-assessment/assets/80291797/3375ddf5-9308-4cfc-92d7-a1a66bebb43d)
-![Screen Shot 2023-09-07 at 14 46 08](https://github.com/patrickikhidero/deezer-assessment/assets/80291797/9d4e1dbb-670c-406b-83b4-c1236c59d453)
 ![Screen Shot 2023-09-07 at 15 10 34](https://github.com/patrickikhidero/deezer-assessment/assets/80291797/36539af6-d41c-48ea-8c2a-4fe8e098c026)
 
 

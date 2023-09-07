@@ -3,6 +3,7 @@ import axios from "axios";
 
 /** Base Url for api */
 const apiUrl = "https://cors-anywhere.herokuapp.com/https://api.deezer.com/";
+// const apiUrl = "https://1ky6u5kabk.execute-api.us-east-1.amazonaws.com/dev/";
 
 /** axios API configuration for sending internal requests */
 const deezerApi = axios.create({
